@@ -1,0 +1,54 @@
+h1{
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1em;
+    text-align: center;
+    color: #558298;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.container th h1{
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #add2e3;;
+
+ } 
+ .container td{
+    font-weight: normal;
+    font-size: 1em;
+    box-shadow: 0 2px 2px -2px #0E1119;
+ }
+ .container{
+    text-align: left;
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+ }
+.container td .container th{
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.container th {
+    background-color: #061531;
+}  
+.container td{
+    padding: 8px;
+}
+.container th{
+    padding: 8px;
+}
+.container th {
+    background-color: #646d7d;
+    
+}  
+.container tr:nth-child(odd)  {
+    background-color: #576278;
+}
+.container tr:nth-child(even) {
+    background-color: #3b4a6d;
+}
+.container td:first-child 
+{ color: #f8f274; }
